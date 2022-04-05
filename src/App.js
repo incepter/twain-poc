@@ -95,10 +95,10 @@ export default function App() {
             icon={<ClearOutlined />}
             onClick={() => setScanned([])}
           >
-            Clear
+            
           </Button>
         ) : null}
-        <div style={{ width: "80%" }} id="images">
+        <div id="images">
           {scanned.map((base64, i) => (
             <img className="scanned" alt={i} key={i} src={base64} />
           ))}
