@@ -1,6 +1,6 @@
 import { Layout, Menu, Button } from "antd";
 import * as JSPM from "jsprintmanager";
-import { ClearOutlined } from "@ant-design/icons";
+import ClearOutlined from "@ant-design/icons/ClearOutlined";
 import "antd/dist/antd.css"; // or 'antd/dist/antd.less'
 import { useState } from "react";
 import "./styles.css";
