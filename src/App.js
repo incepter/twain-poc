@@ -4,6 +4,38 @@ import { ClearOutlined } from "@ant-design/icons";
 import "antd/dist/antd.css"; // or 'antd/dist/antd.less'
 import { useState } from "react";
 import "./styles.css";
+/**
+ *
+ *
+ *
+ *
+ *
+ *              /!\  /!\  /!\
+ *
+ *
+ *
+ *          This is just a poc, this isn't a production ready code
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *         Please don't copy & paste it directly.
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */
 
 const { Header, Content } = Layout;
 
