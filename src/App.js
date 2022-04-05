@@ -106,6 +106,9 @@ export default function App() {
         <input
           onChange={(e) => {
             const selectedFile = e.target.files[0];
+            if (!selectedFile) {
+              return;
+            }
             const reader = new FileReader();
 
             reader.onload = function (event) {
@@ -210,7 +213,6 @@ function scanJSPM(cb) {
         return;
       }
 
-      console.log(")=))>", data);
       var imgBlob = new Blob([data]);
 
       if (imgBlob.size === 0) return;
